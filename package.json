@@ -1,0 +1,47 @@
+{
+  "name": "OnrecordMobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^12.4.0",
+    "@react-native-firebase/auth": "^12.4.0",
+    "@react-native-firebase/firestore": "^12.4.0",
+    "@react-native-firebase/functions": "^12.6.1",
+    "@react-native-firebase/messaging": "^12.6.1",
+    "@react-native-firebase/storage": "^12.6.1",
+    "@react-navigation/native": "^6.0.2",
+    "lottie-ios": "3.4.0",
+    "lottie-react-native": "^5.1.4",
+    "metro-config": "^0.66.2",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-gifted-chat": "^0.16.3",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-vector-icons": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/runtime": "^7.15.3",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
